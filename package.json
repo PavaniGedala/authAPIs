@@ -1,0 +1,21 @@
+{
+  "name": "sampleDemo",
+  "version": "1.0.0",
+  "description": "The sample demo for authentication APIs",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {},
+  "author": "Pavani Gedala",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^4.13.17",
+    "nodemailer": "^4.6.8"
+  }
+}
